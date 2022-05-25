@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://ifafaa.github.io/nft-preview-card-component-project/]
 
 
 ### Built with
@@ -49,3 +49,4 @@ I learned a lot of new code, and a lot of techniques, like overlaying a div over
 
 - Frontend Mentor - [https://www.frontendmentor.io/profile/IFafaa]
 - GitHub - [https://github.com/IFafaa]
+- Linkedin - [https://www.linkedin.com/in/fabrício-lima-a09333216/]
