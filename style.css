@@ -1,0 +1,162 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;700&display=swap');
+
+/*Global configuration*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+header{
+    text-align: center;
+    font-family: outfit;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+/*box general style*/
+#container{
+    color: white;
+    font-family: Outfit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96vh;
+}
+
+#general_box{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.411);
+
+    width: 320px;
+    height: 540px;
+    padding: 20px;
+}
+
+
+
+/*equilibrium image*/
+#equilibrium_image{
+    width: 280px;
+    border-radius: 10px;
+}
+
+#view_image{
+    display: none;
+}
+
+#hover_equilibrium{
+    border-radius: 10px;
+
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    margin-top: -280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hover_equilibrium:hover{
+    background-color: hsla(178, 100%, 50%, 0.534);
+    cursor: pointer;
+    border-radius: 10px;
+
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    margin-top: -285px;
+}
+
+#hover_equilibrium:hover #view_image{
+    display:flex;
+}
+/*title and texts*/
+h1{
+    font-weight: 700;
+    font-size: 1.2em;
+
+    margin-top: 15px;
+}
+
+#middle_section>div>p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+
+    margin-top: 15px;
+}
+
+/*ETH and the clock*/
+#box_ETH_clock{
+    display: inline-flex;
+    width: 280px;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+#ETH_box{
+    color: hsl(178, 100%, 50%);
+
+    display: inline-flex;
+    width: 50%;
+}
+
+#ETH_icon{
+    margin-right: 5px;
+}
+
+#clock_box{
+    color: hsl(215, 51%, 70%);
+
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#clock_icon{
+    margin-right: 5px;
+}
+
+/*avatar and the creation of*/
+#box_avatar{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+
+    display: inline-flex;
+    align-items: center;
+    width: 280px;
+    border-top: 1px solid hsla(215, 52%, 70%, 0.247);
+    height: 70px;
+    margin-top: 20px;
+}
+
+#avatar_icon{
+    border: 1px solid white;
+
+    width: 35px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+/*texts hover*/
+.text_bold{
+    color: white;
+}
+
+.text_bold:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
