@@ -160,3 +160,8 @@ h1{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
+
+main a{
+    text-decoration: none;
+    color: white;
+}
