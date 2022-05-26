@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U]
+- Solution URL: [https://www.frontendmentor.io/solutions/flex-box-semantic-html5-and-other-properties-of-css-5dozQVqpmS]
 - Live Site URL: [https://ifafaa.github.io/nft-preview-card-component-project/]
 
 
